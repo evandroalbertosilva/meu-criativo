@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CTA Universal</title>
+
+<style>
+body { font-family: Arial, sans-serif; text-align: center; padding: 40px; }
+h1 { font-size: 28px; }
+p { font-size: 18px; }
+
+.botao {
+  display: inline-block;
+  padding: 18px 32px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #25D366, #128C7E);
+  border-radius: 10px;
+  text-decoration: none;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+  100% { transform: scale(1); }
+}
+</style>
+</head>
+
+<body>
+
+<h1 id="headline"></h1>
+<p id="descricao"></p>
+
+<a id="cta" class="botao" href="#" target="_blank"></a>
+
+<script>
+fetch("criativo.json")
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("headline").innerText = data.mensagens.headline;
+    document.getElementById("descricao").innerText = data.mensagens.descricao;
+    document.getElementById("cta").innerText = data.cta.texto;
+    document.getElementById("cta").href = data.cta.link;
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "produto": "Mounjax",
+  "campanha": "Emagrecimento 2026",
+  "mensagens": {
+    "headline": "EMAGREÇA RÁPIDO",
+    "subheadline": "Resultados reais com Mounjax",
+    "descricao": "Transforme seu corpo de forma natural e segura"
+  },
+  "cta": {
+    "texto": "🔥 QUERO RESULTADO AGORA",
+    "link": "https://wa.me/5511999999999?text=Olá%20quero%20saber%20mais%20sobre%20o%20Mounjax"
+  }
+}
