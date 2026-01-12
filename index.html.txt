@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Mounjax - Emagreça Rápido</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.botao {
+    display: block;
+    background: #17b85c;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="mounjax.jpg" alt="Mounjax Emagrecedor">
+
+    <a class="botao" href="<a class="botao" href="https://wa.me/5531973342973?text=Quero%20comprar%20o%20Mounjax" target="_blank">
+">
+        EXPERIMENTE AGORA
+    </a>
+
+</div>
+
+</body>
+
+</html>
